@@ -1,10 +1,12 @@
 import React from 'react'
-
+import HeaderBanner from './HeaderBanner'
+import ReviewsDemo from './ReviewsDemo'
 function Home() {
     return (
-        <div>
-            Home
-        </div>
+        <>
+            <HeaderBanner/>
+            <ReviewsDemo/>
+        </>
     )
 }
 
